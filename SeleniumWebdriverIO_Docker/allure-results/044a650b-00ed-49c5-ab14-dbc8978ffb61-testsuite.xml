@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648569746351' stop='1648569768432'>
+    <name>Panier</name>
+    <title>Panier</title>
+    <test-cases>
+        <test-case start='1648569746352' status='passed' stop='1648569753615'>
+            <name>verification si un element existe dans le panier</name>
+            <title>verification si un element existe dans le panier</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648569753616' status='passed' stop='1648569754187'>
+            <name>clique pour l'achat</name>
+            <title>clique pour l'achat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648569754188' status='failed' stop='1648569768431'>
+            <name>remplissage du formulaire pour l'achat </name>
+            <title>remplissage du formulaire pour l'achat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`/html/body/div[10]/p`) to have text containing
+                
+                - Expected  - 6
+                + Received  + 5
+                
+                -
+                -         Id: 5720548
+                -         Amount: 650 USD
+                + Id: 1137411
+                + Amount: 175370 USD
+                -         Card Number: 12AZ
+                -         Name: TONY
+                + Card Number: 21AZZ
+                + Name: TONY
+                -         Date: 29/2/2022
+                + Date: 29/2/2022</message>
+                <stack-trace>Error: Expect $(`/html/body/div[10]/p`) to have text containing
+                
+                - Expected  - 6
+                + Received  + 5
+                
+                -
+                -         Id: 5720548
+                -         Amount: 650 USD
+                + Id: 1137411
+                + Amount: 175370 USD
+                -         Card Number: 12AZ
+                -         Name: TONY
+                + Card Number: 21AZZ
+                + Name: TONY
+                -         Date: 29/2/2022
+                + Date: 29/2/2022
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Test4Panier.js:25:44)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

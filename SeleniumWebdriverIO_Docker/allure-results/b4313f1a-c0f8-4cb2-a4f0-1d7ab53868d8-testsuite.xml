@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648559474928' stop='1648559487627'>
+    <name>Cart</name>
+    <title>Cart</title>
+    <test-cases>
+        <test-case start='1648559474929' status='broken' stop='1648559485071'>
+            <name>remplire cart</name>
+            <title>remplire cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call setValue on element with selector "//*[@id="name"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//*[@id="name"]" because element wasn't found
+                    at implicitWait (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\03\/Cart.js:19:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

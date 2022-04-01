@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648544723048' stop='1648544723065'>
+    <name>Page Sign</name>
+    <title>Page Sign</title>
+    <test-cases>
+        <test-case start='1648544723049' status='broken' stop='1648544723056'>
+            <name>ouvrir le menu de la creation de compte</name>
+            <title>ouvrir le menu de la creation de compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/SignUp.js:9:33)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648544723056' status='broken' stop='1648544723060'>
+            <name>creer un compte</name>
+            <title>creer un compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'setValue')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'setValue')
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/SignUp.js:18:32)
+                    at Context.executeAsync (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

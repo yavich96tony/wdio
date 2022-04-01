@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648712380090' stop='1648712404140'>
+    <name>Page Sign</name>
+    <title>Page Sign</title>
+    <test-cases>
+        <test-case start='1648712380092' status='passed' stop='1648712396965'>
+            <name>ouvrir le menu de la creation de compte</name>
+            <title>ouvrir le menu de la creation de compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648712396967' status='passed' stop='1648712397438'>
+            <name>verification si nous somme bien sur la page</name>
+            <title>verification si nous somme bien sur la page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648712397438' status='passed' stop='1648712404139'>
+            <name>tentative de creer un compte</name>
+            <title>tentative de creer un compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

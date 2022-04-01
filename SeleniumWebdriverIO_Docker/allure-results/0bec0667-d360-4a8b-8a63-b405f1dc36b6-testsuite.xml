@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648570697346' stop='1648570713412'>
+    <name>Panier</name>
+    <title>Panier</title>
+    <test-cases>
+        <test-case start='1648570697347' status='passed' stop='1648570701264'>
+            <name>verification si un element existe dans le panier</name>
+            <title>verification si un element existe dans le panier</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648570701264' status='passed' stop='1648570701401'>
+            <name>clique pour l'achat</name>
+            <title>clique pour l'achat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648570701402' status='passed' stop='1648570703184'>
+            <name>remplissage du formulaire pour l'achat </name>
+            <title>remplissage du formulaire pour l'achat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648570703184' status='broken' stop='1648570713407'>
+            <name>click apres avoir remplit le formulaire</name>
+            <title>click apres avoir remplit le formulaire</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "/html/body/div[10]/div[7]/div/button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "/html/body/div[10]/div[7]/div/button" because element wasn't found
+                    at implicitWait (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Test4Panier.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

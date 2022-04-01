@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648572951303' stop='1648572961175'>
+    <name>Test Page Login / apres Login: Login</name>
+    <title>Test Page Login / apres Login: Login</title>
+    <test-cases>
+        <test-case start='1648572951305' status='passed' stop='1648572959064'>
+            <name>aller sur le login</name>
+            <title>aller sur le login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648572959066' status='passed' stop='1648572961143'>
+            <name>tentative de connexion</name>
+            <title>tentative de connexion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648572961144' status='failed' stop='1648572961173'>
+            <name>verification de la connexion</name>
+            <title>verification de la connexion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>[Function (anonymous)] == 'Welcome yavich10'      
+                      actual expected
+                      
+                      [Function'Welcome (anonymous)]yavich10'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: [Function (anonymous)] == 'Welcome yavich10'
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Test2_LogIn.js:27:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

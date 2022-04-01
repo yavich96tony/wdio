@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login" timestamp="2022-04-01T12:03:45" time="4.543" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login"/>
+      <property name="capabilities" value="chrome.99_0_4844_84.linux"/>
+      <property name="file" value=".\test\specs\Test2_LogIn.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_84.linux.Login" name="aller sur le login" time="2.888">
+      <system-out><![CDATA[
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element - {"using":"xpath","value":"//*[@id=\"login2\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/url - {"url":"https://www.demoblaze.com/index.html"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login2\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/elements - {"using":"xpath","value":"//*[@id=\"login2\"]"}
+RESULT: {"url":"https://www.demoblaze.com/index.html"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login2\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element - {"using":"xpath","value":"//*[@id=\"login2\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login2\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/dc7b3de1-edc5-4b9d-8972-1495c3f71b9f/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_84.linux.Login" name="tentative de connexion" time="1.636">
+      <system-out><![CDATA[
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element - {"using":"xpath","value":"//*[@id=\"loginusername\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"loginusername\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/5d6820df-5280-421f-bfbe-257cbb071a9d/clear - {}
+RESULT: {}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/5d6820df-5280-421f-bfbe-257cbb071a9d/value - {"text":"yavich10"}
+RESULT: {"text":"yavich10"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element - {"using":"xpath","value":"//*[@id=\"loginpassword\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"loginpassword\"]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/f3c0da0f-864e-412e-8c7c-463d06ed9a53/clear - {}
+RESULT: {}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/f3c0da0f-864e-412e-8c7c-463d06ed9a53/value - {"text":"yavich10"}
+RESULT: {"text":"yavich10"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element - {"using":"xpath","value":"//*[@id=\"logInModal\"]/div/div/div[3]/button[2]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"logInModal\"]/div/div/div[3]/button[2]"}
+COMMAND: POST /session/b619313744dc9d400a8310d1ad20ea63/element/8d39f9c9-492e-4d5f-bb17-5f34e5ccaa63/click - {}
+RESULT: {}
+COMMAND: DELETE /session/b619313744dc9d400a8310d1ad20ea63 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

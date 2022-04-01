@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648712504146' stop='1648712530381'>
+    <name>Panier</name>
+    <title>Panier</title>
+    <test-cases>
+        <test-case start='1648712504147' status='failed' stop='1648712514429'>
+            <name>verification si un element existe dans le panier</name>
+            <title>verification si un element existe dans le panier</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//*[@id="tbodyid"]/tr`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"</message>
+                <stack-trace>Error: Expect $(`//*[@id="tbodyid"]/tr`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Test4Panier.js:8:42)
+                    at Context.executeAsync (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648712514430' status='passed' stop='1648712515257'>
+            <name>clique pour l'achat</name>
+            <title>clique pour l'achat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648712515258' status='passed' stop='1648712525715'>
+            <name>remplissage du formulaire pour l'achat </name>
+            <title>remplissage du formulaire pour l'achat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648712525716' status='passed' stop='1648712530374'>
+            <name>click apres avoir remplit le formulaire</name>
+            <title>click apres avoir remplit le formulaire</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

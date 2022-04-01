@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648545098999' stop='1648545102503'>
+    <name>Page Sign</name>
+    <title>Page Sign</title>
+    <test-cases>
+        <test-case start='1648545099000' status='broken' stop='1648545099065'>
+            <name>verification du titre de la page</name>
+            <title>verification du titre de la page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'call')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'call')
+                    at Object.toHaveTitleFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:9:20)
+                    at Object.runJestExpect (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\expect-webdriverio\lib\util\expectAdapter.js:10:15)
+                    at Object.toHaveTitle (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\expect-webdriverio\lib\matchers\browser\toHaveTitle.js:24:38)
+                    at __EXTERNAL_MATCHER_TRAP__ (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\expect\build\index.js:386:30)
+                    at Object.toHaveTitle (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\expect\build\index.js:387:15)
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/SignUp.js:8:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648545099077' status='passed' stop='1648545101530'>
+            <name>ouvrir le menu de la creation de compte</name>
+            <title>ouvrir le menu de la creation de compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648545101531' status='passed' stop='1648545102501'>
+            <name>creer un compte</name>
+            <title>creer un compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

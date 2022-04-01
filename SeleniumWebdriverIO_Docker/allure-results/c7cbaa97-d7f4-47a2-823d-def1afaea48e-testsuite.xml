@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648566683167' stop='1648566687711'>
+    <name>Panier</name>
+    <title>Panier</title>
+    <test-cases>
+        <test-case start='1648566683169' status='passed' stop='1648566687709'>
+            <name>verification si un element existe dans le panier</name>
+            <title>verification si un element existe dans le panier</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

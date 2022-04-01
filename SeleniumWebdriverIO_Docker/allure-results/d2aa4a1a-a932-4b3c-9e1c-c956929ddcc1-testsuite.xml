@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648546635681' stop='1648546648120'>
+    <name>Page Sign</name>
+    <title>Page Sign</title>
+    <test-cases>
+        <test-case start='1648546635683' status='failed' stop='1648546647392'>
+            <name>verification du titre de la page</name>
+            <title>verification du titre de la page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect STORE to have text containing
+                
+                Expected: "STORE"
+                Received: undefined</message>
+                <stack-trace>Error: Expect STORE to have text containing
+                
+                Expected: "STORE"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/SignUp.js:10:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648546647393' status='passed' stop='1648546647574'>
+            <name>ouvrir le menu de la creation de compte</name>
+            <title>ouvrir le menu de la creation de compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648546647575' status='passed' stop='1648546648119'>
+            <name>creer un compte</name>
+            <title>creer un compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

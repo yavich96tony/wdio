@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648558940415' stop='1648558943199'>
+    <name>Page Sign</name>
+    <title>Page Sign</title>
+    <test-cases>
+        <test-case start='1648558940416' status='passed' stop='1648558942578'>
+            <name>ouvrir le menu de la creation de compte</name>
+            <title>ouvrir le menu de la creation de compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648558942578' status='passed' stop='1648558943198'>
+            <name>tentative de creer un compte</name>
+            <title>tentative de creer un compte</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648486585050' stop='1648486595145'>
+    <name>lofin</name>
+    <title>lofin</title>
+    <test-cases>
+        <test-case start='1648486585051' status='broken' stop='1648486595144'>
+            <name>Home Login</name>
+            <title>Home Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//*[@id="login2"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@id="login2"]" because element wasn't found
+                    at implicitWait (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Login.js:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

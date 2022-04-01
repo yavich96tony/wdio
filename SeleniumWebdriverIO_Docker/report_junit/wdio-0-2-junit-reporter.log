@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Cart" timestamp="2022-04-01T12:03:56" time="3.151" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Cart"/>
+      <property name="capabilities" value="chrome.99_0_4844_84.linux"/>
+      <property name="file" value=".\test\specs\Test3_Cart.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_84.linux.Cart" name="click pour ajouter dans le panier" time="3.132">
+      <system-out><![CDATA[
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/element - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/url - {"url":"https://www.demoblaze.com/prod.html?idp_=1"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"url":"https://www.demoblaze.com/prod.html?idp_=1"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/elements - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/element - {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"tbodyid\"]/div[2]/div/a"}
+COMMAND: POST /session/d2204c354236f4b0590268b54eefd33f/element/6a59df20-483b-4125-ba03-cdd6f794c505/click - {}
+RESULT: {}
+COMMAND: DELETE /session/d2204c354236f4b0590268b54eefd33f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

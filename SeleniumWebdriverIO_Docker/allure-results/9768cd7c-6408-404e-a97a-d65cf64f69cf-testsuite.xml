@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648551982181' stop='1648551985188'>
+    <name>Test Page Login / apres Login: Card</name>
+    <title>Test Page Login / apres Login: Card</title>
+    <test-cases>
+        <test-case start='1648551982183' status='passed' stop='1648551985188'>
+            <name>ouvire le menu cart</name>
+            <title>ouvire le menu cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

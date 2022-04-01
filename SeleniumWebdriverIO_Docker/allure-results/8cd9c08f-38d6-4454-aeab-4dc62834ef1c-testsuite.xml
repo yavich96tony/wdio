@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648485533800' stop='1648485546280'>
+    <name>Home de la page</name>
+    <title>Home de la page</title>
+    <test-cases>
+        <test-case start='1648485533801' status='failed' stop='1648485546275'>
+            <name>verification du titre de la page</name>
+            <title>verification du titre de la page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//*[@id="signin2"]`) to have text
+                
+                Expected: "Log in"
+                Received: "Sign up"</message>
+                <stack-trace>Error: Expect $(`//*[@id="signin2"]`) to have text
+                
+                Expected: "Log in"
+                Received: "Sign up"
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Home_page.js:14:47)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

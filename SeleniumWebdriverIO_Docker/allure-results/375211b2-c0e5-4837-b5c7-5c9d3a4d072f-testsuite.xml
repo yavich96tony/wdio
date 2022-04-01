@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648714194973' stop='1648714200290'>
+    <name>Test Page Login / apres Login: Login</name>
+    <title>Test Page Login / apres Login: Login</title>
+    <test-cases>
+        <test-case start='1648714194974' status='passed' stop='1648714199608'>
+            <name>aller sur le login</name>
+            <title>aller sur le login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648714199610' status='broken' stop='1648714200258'>
+            <name>tentative de connexion</name>
+            <title>tentative de connexion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=99.0.4844.84)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=99.0.4844.84)
+                    at getErrorFromResponseBody (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648714200259' status='failed' stop='1648714200286'>
+            <name>verification de la connexion</name>
+            <title>verification de la connexion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>[Function (anonymous)] == 'Welcome yavich10'      
+                      actual expected
+                      
+                      [Function'Welcome (anonymous)]yavich10'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: [Function (anonymous)] == 'Welcome yavich10'
+                    at Context.&lt;anonymous> (C:\Users\itkan\OneDrive\Bureau\SeleniumWebdriverIO_Docker\test\specs\/Test2_LogIn.js:27:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

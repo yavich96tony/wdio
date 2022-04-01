@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648712428050' stop='1648712438154'>
+    <name>Cart</name>
+    <title>Cart</title>
+    <test-cases>
+        <test-case start='1648712428051' status='passed' stop='1648712438153'>
+            <name>click pour ajouter dans le panier</name>
+            <title>click pour ajouter dans le panier</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-99.0.1150.55'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
